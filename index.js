@@ -17,7 +17,7 @@ window.addEventListener('scroll', function() {
     window.open('http://www.google.com', '_blank');
 })
 
-const texts = ["Hello", "How are you", "I'm doing well"];
+const texts = ["Inspire", "Connect", "Excel"];
 const typingText = document.getElementById("typing-text");
 let index = 0;
 
