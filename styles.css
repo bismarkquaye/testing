@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700');
+
+
+body{
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding:0px;
+   
+}
+#navi-top{
+    height: 60px;
+    width: 100%;
+    background-color: #282828;
+    margin: 0px;  
+}
+header{
+    margin: 0;
+}
+
+.navi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    list-style-type: none;
+    margin: 0;
+    height:50px;
+}
+.nav-link{
+    text-decoration: none;
+    font:17.667px "Open-Sans",sans-serif;
+    color:#ffff
+}
+.ptop{
+    height: 100vh;
+}
+.top{
+    display: flex;
+   justify-content: center;
+   margin-top:5%;
+}
+.top-text{
+    max-width: 50%;
+}
+
+img.profile{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+h1{
+  font-size:40pt ;
+  font-family: 'Open Sans', sans-serif;
+  color:#3e3e3e;
+  font-weight: 100;
+}
+strong{
+    color: #3e3e3e;
+}
+p{
+    font-size:20.00pt;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    color:#888888;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+.button{
+    height: 70px;
+    width: 400px;
+    background:linear-gradient(180deg, #B34B6F, black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 70px 0px 70px;
+    padding: 10px;
+    box-shadow: 0px 2px 4px #282828;
+    outline: 1px solid black
+}
+#button{
+    font:25px "Open-Sans",sans-serif;
+    text-decoration: none;
+    color:#ffff;
+    font-weight: 700;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+ 
+.mid{
+    background-image: url("/images/img4.avif");
+    background-size: cover ;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items:center ;
+    flex-direction: column;
+    /* border: solid #888888; */
+    box-shadow: 0px -0.5px 3px rgba(0, 0, 0, 0.1);
+} 
+
+.mid-text, .end-text{
+    display: block;
+}
+.mid h2{
+    text-align: center;
+    font-size:30pt ;
+    font-family: 'Open Sans', sans-serif;
+    color:#3e3e3e;
+    font-weight: 700;
+}
+
+.mid p, .end p {
+    font-size:17.00pt;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    color:#888888;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+.lang{
+    height: 100px;
+    width: 100px;
+}
+.skill-container{
+    display: flex;
+    gap:25px;
+}
+.box{
+    height: 400px;
+    width: 350px;
+    max-height: 400px;
+    outline: 0.2px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding:60px 10px 15px 10px
+}
+h3{
+    margin-bottom: 40px;
+}
+
+.clicked{
+    padding: 20px;
+    transition: height 0.5s;
+    height: 0;
+}
+.end{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items:center ;
+    flex-direction: column;
+    /* border: solid #888888; */
+    box-shadow: 0px -0.5px 3px rgba(0, 0, 0, 0.1);
+    background-color: #2f2f2f;
+}
+.end h2{
+    text-align: center;
+    font-size:30pt ;
+    font-family: 'Open Sans', sans-serif;
+    color:#ffff;
+    font-weight: 700;
+}
+
+#name,#email{
+    height: 50px;
+    width: 500px;
+    display: inline-block;
+    margin:0px 20px 20px 0px;
+    background-color: #282828;
+    border-radius: 10px;
+    color: white; /* Set the text color to white */
+    cursor: text;
+    padding-left: 10px;
+}
+
+#subject{
+    display: block;
+    height: 50px;
+    width:1040px;
+    margin-bottom: 20px;
+    background-color: #282828;
+    border-radius: 10px;
+    color: white; /* Set the text color to white */
+    cursor: text;
+    padding-left: 10px;
+}
+
+.longInput{
+    display: block;
+    height: 200px;
+    width: 1040px;
+    margin-bottom: 35px;
+    background-color: #282828;
+    border-radius: 10px;
+    color: white; /* Set the text color to white */
+    cursor: text;
+    padding:20px 0px 10px 15px
+}
+
+.longInput::placeholder {
+    font-family: inherit;
+    font-family: 'Open Sans', sans-serif;
+} 
+
+#name,#subject,#email::placeholder{
+    font-family: 'Open Sans', sans-serif;
+}
+button{
+    height: 70px;
+    width: 400px;
+    background:linear-gradient(180deg, #B34B6F, black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 0px 2px 4px #282828;
+    outline: 1px solid black
+}
+
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  #text-container {
+    overflow: hidden;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #typing-text {
+    display: inline-block;
+    white-space: nowrap;
+    animation: typing 4s linear forwards;
+    font-size: 30px;
+    color: #B34B6F;
+  }

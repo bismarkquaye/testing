@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=circular&display=swap" rel="stylesheet"> -->
+    <title>Carmen Ashu Takor</title>
+</head>
+<body>
+    <header id="navi-top">
+        <ul class="navi">
+            <li class="nav-item"><a href="#" class="nav-link">Top</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Work</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li> 
+            <li class="nav-item"><a href="#" class="nav-link">Contract</a></li> 
+        </ul>
+    </header>
+    <section class="ptop">
+        <div class="top">
+            <img class="profile" src="images/profile.jpeg">
+            <div class="top-text">
+                <h1>Hi. I'm <strong>Carmen Ashu Takor.</strong></h1>
+                <p>I am a driven, aspiring <strong>software developer</strong>, seeking a challenging opportunity to apply my coding prowess and academic knowledge in a professional setting.</p>
+                <div class="button">
+                    <a id="button" href="#">Learn about what I do</a>
+                </div> 
+            </div>
+        </div>
+        <div id="text-container">
+            <p id="typing-text"></p>
+        </div>
+    </section>
+    <!-- Portfolio -->
+    <section class="mid">
+        <div class="mid-text">
+            <h2>Here's all the stuff I do</h2>
+            <p>Odio turpis amet sed consequat eget posuere consequat.</p>
+        </div>
+        <div class="skill-container">
+           <div class="box jav-skill">
+                <img class="lang" src="images/java-14.svg">
+                <h3>Java</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quis adipisci eius assumenda</p>
+           </div>
+           <div class="box python-skill">
+                <img class="lang" src="images/python-5.svg">
+                <h3>Java</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quis adipisci eius assumenda</p>
+           </div> 
+           <div class="box jav-skill">
+                <img class="lang" src="images/c.svg">
+                <h3>Java</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quis adipisci eius assumenda</p>
+           </div> 
+        </div>
+    </section>
+    <!-- Contact -->
+    <section class="end">
+        <div class="end-text">
+            <h2>Have me make stuff for you</h2>
+            <p>Odio turpis amet sed consequat eget posuere consequat.</p>
+        </div>
+        <form action="https://formsubmit.co/cliqbillion@gmail.com" method="post">
+            <input type="hidden" name="_subject" value="New submission!"> 
+            <input type="hidden" name="_next" value="https://yourdomain.co/success.html">
+            <input id="name" type="text" name="Name" placeholder="Name">
+            <input id= "email" type="email" name="Email" placeholder="Email">
+            <input id="subject" type="text" name="Subject" placeholder="Subject">
+            <!-- <input id="messages" type="text" name="Message" placeholder="Message"> -->
+            <textarea class="longInput" cols="30" rows="10" name="message" placeholder="Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
